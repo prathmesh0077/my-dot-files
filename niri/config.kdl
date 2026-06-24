@@ -1,0 +1,71 @@
+prefer-no-csd
+
+// Environment
+include "modules/environment.kdl"
+
+//Blur
+blur {
+    // off
+    passes     3
+    offset     5.5
+    saturation 1.10
+}
+
+// Debug
+include "modules/debug.kdl"
+
+// Workspaces
+// workspace "1"
+// workspace "2"
+// workspace "3"
+// workspace "4"
+
+// Input
+include "modules/input.kdl"
+
+
+// Output
+include "modules/output.kdl"
+
+
+// Layer Rules
+include "modules/layer-rules.kdl"
+
+// Overview
+overview {
+    backdrop-color "#00000000"
+}
+
+// Layout
+include "modules/layout.kdl"
+
+// Startup
+include "modules/startup.kdl"
+
+// Hotkey Overlay
+hotkey-overlay {
+    skip-at-startup
+}
+
+// Screenshots
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+// Animations
+include "modules/animations.kdl"
+
+// Window Rules
+include "modules/window-rules.kdl"
+
+// Switch Events
+switch-events {
+    lid-close {
+        spawn "bash" "-c" "noctalia msg session lock"
+    }
+}
+
+// Keybindings
+include "modules/binds.kdl"
+
+// colorscheme
+// include "modules/noctalia.kdl"
+include "noctalia.kdl"

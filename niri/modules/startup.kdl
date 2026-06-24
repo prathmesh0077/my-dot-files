@@ -1,0 +1,4 @@
+spawn-at-startup "noctalia"
+// spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "sh" "-c" "wl-paste --type text --watch cliphist store & wl-paste --type image --watch cliphist store &"
+// spawn-at-startup "~/.local/bin/x11-env.sh"

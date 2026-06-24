@@ -1,0 +1,26 @@
+input {
+
+    focus-follows-mouse
+
+    keyboard {
+        xkb {
+
+        }
+
+        numlock
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+    }
+
+    mouse {
+    }
+
+    trackpoint {
+    }
+
+    warp-mouse-to-focus
+
+}

@@ -1,0 +1,4 @@
+environment {
+    _JAVA_AWT_WM_NONREPARENTING "1"
+    QT_QPA_PLATFORMTHEME "qt6ct"
+}
